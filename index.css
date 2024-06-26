@@ -1,0 +1,146 @@
+
+h1 {
+    color:blue;
+    font-family: Tahoma;
+    font-size:  55px;
+    text-align: center;
+    /* margin-left: 105px; */
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: darkgrey;
+    height: 200vh;
+}
+
+form {
+    padding: 10px;
+   background-color: white;
+   border-radius: 5px; /* Rounded edges for input */
+    border: 1px solid #ccc;
+  
+}
+
+.logindetails {
+    padding: 10px;
+    width: 420px
+}
+
+.confirmemail {
+    padding: 10px;
+    width: 420px
+}
+
+.password {
+    padding: 10px;
+    width: 420px
+}
+
+.confirmPassword {
+    padding: 10px;
+    width: 420px
+}
+
+
+#name {
+    padding:10px;
+    width: 195px;
+}
+
+.firstname {
+    padding:10px;
+    width: 195px;
+    border: 1px solid black;
+}
+
+#na {
+    border: 0px;
+}
+
+p {
+    font-size: small;
+    font-family: Tahoma;
+}
+
+button {
+    background-color: green;
+    padding: 10px;
+    width: 40%;
+    display: block;
+    /* text-align: center; */
+    margin: auto;
+    /* margin-left: 120px; */
+    border-radius: 5px;
+    font-size: large;
+    font-family: Tahoma;
+    color: white;
+}
+
+
+
+button:hover {
+    background-color: red;
+}
+
+h3 {
+    font-family: Tahoma;
+    /* margin-left: 130px; */
+    color: rgb(179, 214, 226);
+    font-size: 15px;
+    text-align: center;
+
+    
+}
+
+.message {
+    text-align: center;
+}
+
+#easy {
+    margin-top: 0px;
+}
+
+#Create {
+    font-family: Tahoma;
+    margin-bottom: 1px;
+}
+
+select {
+    /* border: 1px solid darkgrey; */
+    padding: 10px;
+    width: 32%;
+}
+
+/* .Gender {
+    border: 1px solid darkgrey;
+    box-sizing: border-box;
+
+} */
+
+.gen {
+    /* border: 1px solid black; */
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    /* padding: 5px; */
+    /* margin: 0px 40px; */
+}
+
+.m, .f, .c {
+    /* margin:4px 20px ; */
+    padding: 10px 30px;
+    border: 1px solid gray;
+    border-radius: 4px;
+    /* margin: 0px 30px; */
+    /* gap: 40px; */
+}
+
+.error {
+    color: red;
+    text-align: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin-top: 3px;
+}
